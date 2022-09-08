@@ -30,7 +30,7 @@ body{
     
 }
 #dollar{
-    margin: 20px 0px;
+    margin: 40px 0px;
     width: 400px;
 }
 #tela{
@@ -57,17 +57,19 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .main > div{
     width: 800px;
     height: 80px;
-    margin: 30px;
+    margin: 20px;
     border: black 1px solid;
     border-radius: 10px;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 .main>div>h1{
     margin-right: 80px;
